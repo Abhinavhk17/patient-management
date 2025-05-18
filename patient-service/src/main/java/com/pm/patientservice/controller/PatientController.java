@@ -31,5 +31,6 @@ public class PatientController {
         PatientResponseDTO patientResponseDTO = patientService.createPatient(patientRequestDTO);
 
         return ResponseEntity.ok().body(patientResponseDTO);
+
     }
 }
