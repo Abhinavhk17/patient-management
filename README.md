@@ -61,11 +61,12 @@ spring.kafka.consumer.value-deserializer=org.apache.kafka.common.serialization.B
 ```
 </details>
 
-🔔 Notification Service
-<details> <summary><strong>🔧 Environment Variables</strong></summary>
-env
-Copy
-Edit
+### 🔔 Notification Service
+
+<details>
+<summary><strong>🔧 Environment Variables</strong></summary>
+
+```env
 SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
 
 SPRING_DATASOURCE_URL=jdbc:postgresql://auth-service-db:5432/db
@@ -73,4 +74,5 @@ SPRING_DATASOURCE_USERNAME=admin_user
 SPRING_DATASOURCE_PASSWORD=password
 SPRING_JPA_HIBERNATE_DDL_AUTO=update
 SPRING_SQL_INIT_MODE=always
+```
 </details>
