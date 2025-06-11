@@ -20,7 +20,7 @@ SPRING_JPA_HIBERNATE_DDL_AUTO=update
 SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
 SPRING_SQL_INIT_MODE=always
 ```
-
+</details>
 ###🧾 Billing Service Integration
 
  <details>
