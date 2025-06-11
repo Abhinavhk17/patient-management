@@ -1,5 +1,4 @@
 # 🏥 Patient Management Platform  
-🚀 Streamlining hospital workflows • 🔐 Secure access to critical data • ⚡ Powered by real-time updates
 
 ---
 
