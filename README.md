@@ -33,12 +33,12 @@ BILLING_SERVICE_GRPC_PORT=9005
 ```
 </details>
 
-📨 Kafka Container (Local Dev Setup)
-Copy-paste this line into your environment variables section when running the Kafka container locally via IntelliJ or Docker:
+### 📨 Kafka Container (Local Dev Setup)
 
-env
-Copy
-Edit
+<details>
+<summary><strong>🔧 Environment Variables</strong></summary>
+
+```env
 KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094
 KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER
 KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=0@kafka:9093
@@ -46,14 +46,21 @@ KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,EXTERNAL:PLAINTEXT
 KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://:9094
 KAFKA_CFG_NODE_ID=0
 KAFKA_CFG_PROCESS_ROLES=controller,broker
-🏭 Kafka Producer Setup (Patient Service)
-Add the following to your application.properties:
 
-properties
-Copy
-Edit
+```
+</details>
+
+### 🏭 Kafka Producer Setup (Patient Service)
+
+<details>
+<summary><strong>🔧 application.properties Configuration</strong></summary>
+
+```properties
 spring.kafka.consumer.key-deserializer=org.apache.kafka.common.serialization.StringDeserializer
 spring.kafka.consumer.value-deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+```
+</details>
+
 🔔 Notification Service
 <details> <summary><strong>🔧 Environment Variables</strong></summary>
 env
