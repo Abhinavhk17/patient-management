@@ -21,16 +21,17 @@ SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
 SPRING_SQL_INIT_MODE=always
 ```
 </details>
-###🧾 Billing Service Integration
 
- <details>
- <summary><strong>🔧 Environment Variables</strong></summary>
+### 🧾 Billing Service Integration
+
+<details>
+<summary><strong>🔧 Environment Variables</strong></summary>
 
 ```env
 BILLING_SERVICE_ADDRESS=billing-service
 BILLING_SERVICE_GRPC_PORT=9005
-</details>
 ```
+</details>
 
 📨 Kafka Container (Local Dev Setup)
 Copy-paste this line into your environment variables section when running the Kafka container locally via IntelliJ or Docker:
