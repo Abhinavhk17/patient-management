@@ -9,7 +9,7 @@ Welcome to the **Patient Service**! This document provides all the necessary env
 ### 🌡️ Patient Service
 
 <details>
-<summary><strong>🔧 Core Environment Variables</strong></summary>
+<summary><strong>🔧 Environment Variables</strong></summary>
 
 ```env
 JAVA_TOOL_OPTIONS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
@@ -19,12 +19,18 @@ SPRING_DATASOURCE_PASSWORD=password
 SPRING_JPA_HIBERNATE_DDL_AUTO=update
 SPRING_KAFKA_BOOTSTRAP_SERVERS=kafka:9092
 SPRING_SQL_INIT_MODE=always
+```
 
-</details> <details> <summary><strong>🧾 Billing Service Integration</strong></summary>
+###🧾 Billing Service Integration
 
+ <details>
+ <summary><strong>🔧 Environment Variables</strong></summary>
+
+```env
 BILLING_SERVICE_ADDRESS=billing-service
 BILLING_SERVICE_GRPC_PORT=9005
 </details>
+```
 
 📨 Kafka Container (Local Dev Setup)
 Copy-paste this line into your environment variables section when running the Kafka container locally via IntelliJ or Docker:
