@@ -28,6 +28,9 @@ Built for scalability and security, this platform integrates advanced technologi
 
 ---
 
+## Architecture 
+![image alt](https://github.com/Abhinavhk17/patient-management/blob/c882968f810ea8ca7abc5a97ae5b64ec3191cd51/Architecture.png)
+
 ## 📦 Environment Configuration
 
 ### 🌡️ Patient Service
